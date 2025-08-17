@@ -77,3 +77,6 @@ print(list3)
 print(list1.count(2))
 """ ----------------index items------------------------ """
 print(list1.index(2))
+num=[5,6,4,8,3]
+num[1:3]=[5,6]
+print(num)
