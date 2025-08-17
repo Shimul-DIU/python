@@ -8,6 +8,13 @@ for i in range(2,33,4):
         print("odd:",i)
 nums=[x*2 if x%2==0 else x for x in range(10)]
 print(nums)
+nums=[3,2,3,4,'scg']
+for i in nums:
+    if i==3:
+        continue
+    print(i)
+else:
+    print("finished")
 # -------------------while loop -------------------------
 i=0
 while i<10:
