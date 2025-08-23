@@ -36,3 +36,5 @@ for i in range(5):
         print("even",i)
      """
     print(i%2)
+num=[9,0,8]
+print(num*2)
