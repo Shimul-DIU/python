@@ -38,3 +38,25 @@ for x ,y in cars.items():
     print(x)
     for i,j in y.items():
         print(i+':',j)
+""" ---------------------type check in dictionary -------------"""
+students={
+    'name':'shimul',
+    'roll':7,
+    'gpa':4.4
+}
+dic_items=students.items()
+print(students.items())
+print(type(dic_items))
+# print(list(dic_items)[0])
+dic_items=list(dic_items)
+print(dic_items[0])
+arr=[2,'shimul']
+print(type(arr[1]))
+# ----------------loop in dic----------------
+print("==================loop in dictionary=============")
+print(students)
+for info in students.items():
+    print(f"{info[0]} -> {info[1]}")
+print("==================loop in dictionary=============")
+for key,value in students.items():
+    print(f"{key} -> {value}")
