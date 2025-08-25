@@ -44,6 +44,8 @@ students={
     'roll':7,
     'gpa':4.4
 }
+for info in students.items():
+    print(info[2],'-',info[3])
 dic_items=students.items()
 print(students.items())
 print(type(dic_items))
