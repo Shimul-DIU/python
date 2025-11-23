@@ -42,4 +42,12 @@ nums2={6,7,8,9,0}
 print(nums1.issubset(nums2))
 print(nums2.issuperset(nums1))
 print(nums1.isdisjoint(nums2))
+arr4={4,5,6,7,True,1}
+arr5={7,8,5,5,False,0}
+arr4.add(8)
+print(arr4)
+arr4.update([9])
+print('update after add 9',arr4)
+arr4.intersection_update(arr5)
+print(arr4)
 
